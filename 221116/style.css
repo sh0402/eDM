@@ -67,6 +67,11 @@ img {
     right: 9.76vw;
     height: 4.16vw;
   }
+
+  .sns-group img {
+    width: 4.16vw;
+    height: 4.16vw;
+  }
 }
 /* .footer {
   position: relative; 
