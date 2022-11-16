@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap');
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #fff;
+}
+
+.top {
+  width: 100%;
+  height: 668px;
+  background-image: url('https://raoncorp.com/data/eDM/220425//img/eDM_0422_headBnr.png');
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0;
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    padding: 0;
+    margin: 0;
+    padding: 40px 0;
+  }
+
+  .eventBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+
+    a {
+      font-size: 16px;
+      color: #fff;
+      padding: 16px 64px;
+      margin: 8px;
+      border: none;
+      border-radius: 32px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .more {
+      background-color: #ff6700;
+      display: flex;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .download {
+      background-color: #548cc9;
+      display: flex;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+}
+
+.bottom {
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .inquiry {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  
+  a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #7f7f7f;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
