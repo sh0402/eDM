@@ -32,7 +32,7 @@ img {
 
 .bottom {
   position: relative;
-} 
+}
 
 .bottom .sns-group {
   position: absolute;
@@ -51,7 +51,7 @@ img {
 
 @media (max-width: 768px) {
   .bottom .sns-group {
-    top: 22.08vw;
+    top: 2.08vw;
     right: 9.76vw;
     height: 4.16vw;
   }
